@@ -1,0 +1,15 @@
+[PROJECT]
+Target=dist\default\production\Slave.X.production.hex
+Processor_Text=PIC12F1572
+CCSVersion=5.093
+Compiler=PCM
+[Target Data]
+FileList=$linker.c
+[dist\default\production\Slave.X.production.c]
+Type=4
+[mru-list]
+1=dist\default\production\Slave.X.production.c
+[Units]
+Count=1
+1=..\src\slave\Slave12F
+Link=1
